@@ -4,7 +4,7 @@ import { auth } from "../init";
 import NavbarStyles from "../styles/Navbar.module.css";
 import { useRouter } from "next/router";
 
-function navbar() {
+function Navbar() {
   const router = useRouter();
   function alertFunction(): void {
     alert("Haven't got the time to implement this feature yet, sorry!");
@@ -57,4 +57,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

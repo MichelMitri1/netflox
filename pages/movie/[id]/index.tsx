@@ -3,7 +3,7 @@ import movieInfoStyles from "../../../styles/MovieInfo.module.css";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-function movie() {
+function Movie() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
@@ -86,4 +86,4 @@ function movie() {
   );
 }
 
-export default movie;
+export default Movie;
